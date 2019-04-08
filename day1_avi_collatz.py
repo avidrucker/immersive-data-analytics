@@ -18,6 +18,32 @@ def collatz(n):
 		temp += " "
 	return temp
 	
-print(collatz(5))
-print(collatz(3))
-print(collatz(12))
+def ask_user_for_number():
+	asking = True
+	while asking:
+		n = input("Please enter a positive number greater than 1: ")
+		if n.isdigit() and int(n) > 1:
+			print(collatz(int(n)))
+			asking = False
+			break
+
+def ask_user_to_continue():
+	asking = True
+	a = ""
+	while asking:
+		a = input("Another? Type 'y' for yes, 'n' for no: ")
+		if a == 'y' or a == 'n':
+			asking = False
+			break
+	return a
+			
+def __main__():
+	running = True
+	while running:
+		ask_user_for_number()
+		if ask_user_to_continue() == 'n':
+			running = False
+			break
+	print("Buh-bye!")
+	
+__main__()
