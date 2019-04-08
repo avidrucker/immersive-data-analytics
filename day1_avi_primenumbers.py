@@ -1,5 +1,5 @@
 def all_primes(upto):
-    for i in range(1,upto):
+    for i in range(1,upto+1):
         if is_prime(i):
             print(str(i) + " is a prime number")
         else:
@@ -14,4 +14,13 @@ def is_prime(n):
             return False
     return True
 
-all_primes(15)
+def ask_user_for_number():
+	asking = True
+	while asking:
+		n = input("Please enter a positive number greater than 1: ")
+		if n.isdigit() and int(n) > 1:
+			all_primes(int(n))
+			asking = False
+			break
+			
+ask_user_for_number()		
