@@ -40,11 +40,11 @@ print(mirror_sen(sen_list[1]))
 print(mirror_sen(sen_list[2]))
 print(mirror_sen(sen_list[3]))"""
 
-hedges = ["Please tell me more.","Many of my patients tell me the same thing.", "It is getting late, maybe we had better quit."]
+hedges = ["Please tell me more.","Many of my patients tell me the same thing.", "It is getting late, maybe we had better quit... Please type 'Q' whenever you're ready *cough* *cough*"]
 qualifiers = ["Why do you say that ", "You seem to think that ", "So, you are concerned that "]
 
 def greet():
-	print("Hello there, what's on your mind?")
+	print("Hello there, what's on your mind? Please type your reponse here or Q to quit: ")
 	
 def listen():
 	return input()
