@@ -1,0 +1,35 @@
+student success
+- high grades
+- course completion
+- satisfaction ratings
+- post-course outcomes
+
+noisy metrics
+- click count
+- time spent
+
+things we can do:
+- comparison across courses
+- attempt prediction of student success markers 
+- suggest course adjustments to improve outcomes
+- can we guess whether some courses are poorly designed (bad UX, confusing questions, misleading material, etc.) as opposed to, let's say, whether a course is engaging, interesting or fun
+
+todo:
+- look at student assessment data
+
+
+questions:
+- can be predict which topics the courses are on?
+- course relevancy, course design accessibility, course ease, course engagement, expectations of students
+- student performance, student interests, student demographics, expectations of the course
+
+
+scenario:
+- we are consultants who are being brought on by the university to enhance their course offering. we are given the UK open courseware dataset.
+
+
+
+why might gamification / external rewards be important to drive engagement?
+- need to be seen
+- desire for validation
+- desire to be seen/valued
